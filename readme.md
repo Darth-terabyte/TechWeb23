@@ -1,3 +1,3 @@
 ##Benvenuto nel progetto di Pagine Web 2023
 
-in questa repo collezioniamo ttutti gli esercizi fatti a lezioni
+in questa repo colleziono tutti gli esercizi fatti a lezione
