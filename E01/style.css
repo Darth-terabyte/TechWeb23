@@ -1,0 +1,11 @@
+table, td, th{
+    border: 1px solid black;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.icona{
+    width: 10%;
+    margin: auto;
+    display: block;
+}

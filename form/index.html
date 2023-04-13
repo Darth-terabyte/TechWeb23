@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://172.16.3.250:8080/index.php" 
+    method="post">
+
+        <input type="text" 
+        name="username" 
+        placeholder="Inserisci il tuo nickname" 
+        id="username" 
+
+        maxlength="50"
+        minlength="5" 
+        required
+        style="height: 20px;"
+        >
+        <input type="submit" value="invia">
+
+        <input 
+        type="password" 
+        name="password" 
+        id="password"
+        placeholder="inserisci password"
+        maxlength="30"
+        minlength="10"
+        required
+        >
+<br><br>
+
+<label for="Css"> Css</label>
+<input type="radio" name="gino" value="Css">
+<br><br>
+
+<label for="Html"> Html </label>
+<input type="radio" name="gino" value="Html">
+<br><br>
+
+<label for="Javascript">Javascript</label>
+<input type="radio" name="gino" value="Javascript">
+<br><br>
+
+<input type="submit" value="invia">
+<br><br>
+
+<input type="checkbox" name="check" id="accetta">
+<label for="accetta">accetto le condizioni</label>
+<input type="checkbox" name="check2" id="rifiuta" value="rifiuto le condizioni">
+<label for="rifiuta">rifiuto le condizioni</label>
+
+
+</form>
+
+</body>
+
+</html>
